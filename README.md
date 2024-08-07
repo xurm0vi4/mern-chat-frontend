@@ -1,6 +1,6 @@
-# mern chat with bot frontend
+# mern chat with bot (frontend)
 
-Frontend for mern-blog project. [Backend part here.](https://github.com/xurm0vi4/mern-chat-backend.git)
+Frontend for mern-chat project. [Backend part here.](https://github.com/xurm0vi4/mern-chat-backend.git)
 ### Attention! The backend server may take up to a minute to start.
 
 ## Run guide
