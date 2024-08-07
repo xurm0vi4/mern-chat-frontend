@@ -1,0 +1,37 @@
+.preview {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #cfcfcf;
+    cursor: pointer;
+}
+.preview.active{
+    background-color: #f4f4f4;
+}
+.preview:hover{
+    background-color: #f4f4f4;
+}
+.preview__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.preview__info_avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.preview__info_data {
+    max-width: 200px;
+}
+.preview__info_data h4{
+    font-weight: 500;
+}
+.preview__info_data p{
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
+}
+.preview__date{
+    font-size: 14px;
+}
