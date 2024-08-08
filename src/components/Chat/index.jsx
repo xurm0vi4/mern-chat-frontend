@@ -26,7 +26,7 @@ const Chat = () => {
   useEffect(() => {
     if (id) {
       fetchData();
-      const socket = io('http://localhost:5000');
+      const socket = io('https://mern-chat-backend-kj9n.onrender.com');
       socket.on('newMessage', (data) => {
         if (data.chat === id) {
           setMessages((prev) => [...prev, data.message]);
