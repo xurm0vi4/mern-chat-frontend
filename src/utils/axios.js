@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: process.env.VITE_API_URL,
+  baseURL: 'https://mern-chat-backend-kj9n.onrender.com',
 });
 
 instance.interceptors.request.use((config) => {
