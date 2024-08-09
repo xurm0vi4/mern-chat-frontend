@@ -11,11 +11,6 @@ export const deleteChat = createAsyncThunk('chats/deleteChat', async (id) => {
   return id;
 });
 
-export const createChat = createAsyncThunk('chats/createChat', async (params) => {
-  const { data } = await axios.post(`/api/chats`, params);
-  return data;
-});
-
 const initialState = {
   items: [],
   status: 'loading',
